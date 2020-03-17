@@ -83,6 +83,11 @@
     height: 366px;
     padding: 20px;
 }
+
+.h{
+    width: 96.2px;
+    height: 39px;
+}
 /*MOUSE HOVER*/
 .tophover:hover{
     color: #a8d4dd;
@@ -599,16 +604,28 @@
     border-top: solid 2px rgb(43, 42, 42);
     margin-top: 50px;
     align-items: center;
-    font-size: 50px;
+    justify-content: space-between;
 }
 
 .fot-color{
     color: rgb(125, 124, 124);
     opacity: 0.3;
+    font-size: 50px;
 }
 
 .icon-m{
     margin-right: 15px;
+}
+
+.fttxt{
+    font-size: 13px;
+    justify-self: self-end;
+}
+
+.y{
+    color: yellow;
+    margin-right: 3px;
+    margin-left: 3px;
 }
 
 /* SEVENTH PART */
@@ -921,4 +938,12 @@ label{
    .seventh{
        height: 1020px;
    }
+
+   .fttxt{
+       flex-flow: column wrap;
+       text-align: center;
+       justify-content: center;
+       font-size: 11px;
+   }
+
 }
