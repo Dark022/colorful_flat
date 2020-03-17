@@ -768,6 +768,8 @@ label{
     .ly-txt{
         text-align: center;
         flex-flow: row-reverse wrap;
+        justify-self: center;
+        align-content: center;
     }
 
     .ly-txt2{
@@ -795,12 +797,15 @@ label{
    .layered{
        height: auto;
        width: 100%;
+       align-items: center;
+       justify-content: center;
    }
 
    .layered-1{
        height: auto;
        flex-flow: column wrap;
        border-bottom: none;     
+       align-items: center;
    }
 
    .layered-2{
