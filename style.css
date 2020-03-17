@@ -83,39 +83,7 @@
     padding: 20px;
 }
 /*MOUSE HOVER*/
-.home:hover{
-    color: #a8d4dd;
-    background-color: rgb(8, 8, 50);
-    border-radius: 5px;
-    width: 96.2px;
-    height: 39px;
-}
-
-.port:hover{
-    color: #a8d4dd;
-    background-color: rgb(8, 8, 50);
-    border-radius: 5px;
-    width: 96.2px;
-    height: 39px;
-}
-
-.blog:hover{
-    color: #a8d4dd;
-    background-color: rgb(8, 8, 50);
-    border-radius: 5px;
-    width: 96.2px;
-    height: 39px;
-}
-
-.contact:hover{
-    color: #a8d4dd;
-    background-color: rgb(8, 8, 50);
-    border-radius: 5px;
-    width: 96.2px;
-    height: 39px;
-}
-
-.services:hover{
+.tophover:hover{
     color: #a8d4dd;
     background-color: rgb(8, 8, 50);
     border-radius: 5px;
