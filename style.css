@@ -167,6 +167,7 @@
     background-color: white;
     margin-top: 80px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .txtcolor{
@@ -291,6 +292,7 @@
     padding-left: 50px;
     flex-flow: row wrap;
 }
+
 .showmoreg{
     width: 142px;
     height: 61px;
@@ -300,6 +302,7 @@
     align-items: center;
     justify-content: center;
     align-self: flex-end;
+    cursor: pointer;
 }
 
 .showmoreb{
@@ -311,6 +314,7 @@
     align-items: center;
     justify-content: center;
     align-self: flex-end;
+    cursor: pointer;
 }
 
 .layeredTitle{
@@ -429,7 +433,7 @@
     color: red;
 }
 
-.fa-twitter-square{
+.cyan{
     color: cyan;
 }
 /*FIFTH PART*/
@@ -528,12 +532,13 @@
     margin-top: 80px;
     border-radius: 5px;
     color: #b4d4df;
+    cursor: pointer;
 }
 /*SIXTH PART*/
 
 /* SEVENTH PART */
 .seventh{
-    height: 874px;
+    height: 1000px;
     width: 100%;
     background-color: #3c3c3c;
     flex-flow: column wrap;
@@ -586,6 +591,24 @@
 .ms-txt{
     margin-left: 33px;
     margin-top: 15px;
+}
+
+.footer{
+    width: 940px;
+    height: 100px;
+    border-top: solid 2px rgb(43, 42, 42);
+    margin-top: 50px;
+    align-items: center;
+    font-size: 50px;
+}
+
+.fot-color{
+    color: rgb(125, 124, 124);
+    opacity: 0.3;
+}
+
+.icon-m{
+    margin-right: 15px;
 }
 
 /* SEVENTH PART */
@@ -757,12 +780,14 @@ label{
     .showmoreg{
        justify-self: flex-end;
        margin-left: 180px;
+       cursor: pointer;
     }
 
     .showmoreb{
         align-self: center;
         justify-content: center;
         margin-left: 180px;
+        cursor: pointer;
     }
 
     .ly-txt{
@@ -814,5 +839,86 @@ label{
        flex-flow: column-reverse wrap;
        justify-content: center;
        align-items: center;
+   }
+
+   .mot{
+       width: 90%;
+       justify-content: center;
+       font-size: 45px;
+       margin: 0
+   }
+
+   .mottext{
+       width: 100%;
+       justify-content: center;
+   }
+
+   .fifth{
+       height: 1100px;
+   }
+
+   .js{
+        width: 100%;
+        height: auto;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: center;
+   }
+
+   .js2{ 
+        width: 428px;
+        height: 261px;
+        flex-flow: row nowrap;
+        margin: 0 auto 20px auto;
+   }
+
+   .jstop{
+        width: 176px;
+        height: 261px;
+   }
+
+   .jsbottom{
+        height: 261px;
+        width: 252px;      
+   }
+   
+   .jstitle{
+        width: 100%;
+   }
+
+   .jstext{
+       margin: 0 auto 20px auto;
+       width: 100%;
+   }
+
+   .sixth{
+       height: 1500px;
+   }
+   
+   .rp{
+       flex-flow: column wrap;
+       width: 100%;
+       height: auto;
+       align-items: center;
+   }
+
+   .rip{
+       margin-bottom: 20px;
+   }
+
+   .name-email{
+       width: 80%;
+   }
+
+   .message{
+       width: 80%;
+   }
+
+   .footer{
+       width: 80%;
+   }
+
+   .seventh{
+       height: 1020px;
    }
 }
