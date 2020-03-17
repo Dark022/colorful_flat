@@ -47,9 +47,10 @@
    justify-content: space-between;
    color: #384A4D;
 }
+
 .hspbc{
     flex-flow: row nowrap;
-    height: auto;
+    height: 50px;
     width: 526px;
     word-spacing: 50px;
     justify-content: space-between;
@@ -85,7 +86,7 @@
 /*MOUSE HOVER*/
 .tophover:hover{
     color: #a8d4dd;
-    background-color: rgb(8, 8, 50);
+    background-color: #384A4D;
     border-radius: 5px;
     width: 96.2px;
     height: 39px;
@@ -604,9 +605,17 @@ html body{
     justify-content: center;
     align-content: center;
 }
-
+ 
 .smallfont{
     font-size: xx-small;
+}
+
+label{
+  display: none;
+}
+
+#toggle{
+    display: none;
 }
 
 .opensans{
@@ -614,3 +623,191 @@ html body{
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@media screen and (max-width: 900px) {
+
+    .topbar{
+        height: 250px;
+        width: 100%;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .hspbc{
+        flex-flow: column wrap;
+        flex-basis: 70%;
+        height: auto;
+        font-size: larger;
+        background-color: #384A4D;
+        color: #a8d4dd;;
+    }
+
+    /*label{
+        display: flex;
+        width: 40px;
+        justify-content: center;
+        cursor: pointer;
+    }*/
+
+    .cf{
+        margin: 0 auto 0 auto;
+        width: 100%;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .tophover:hover{
+        width: 100%;
+        background-color:rgb(85, 110, 114);
+    }
+
+    .h{
+        border-bottom: solid 1px rgb(85, 110, 114);
+        width: 100%;
+    }
+
+    .first{
+        height: auto;
+    }
+
+    .second{
+        height: 900px;
+    }
+
+    .hspbc{
+        width: 100%;
+        line-height: 30px;
+    }
+
+    .first-2{
+        width: 100%;
+        height: 100%;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+    }
+
+    .tta{
+        height: 100%;
+        width: 100%;
+    }
+
+    .fd2{
+        border-top: solid 2px lightgray;
+        border-bottom: solid 2px lightgrey;
+        padding-top: 9px;
+    }
+
+    .ftb{
+        height: 100%;
+        width: 100%;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    .ttab{
+        width: 90%;
+
+    }
+
+    .third{
+        height: auto;   
+    }
+
+    .recentw-txt{
+        width: 90%;
+    }
+
+    .br{
+        display: none;
+    }
+
+    .six-images{
+        margin-bottom: 20px;
+        border: dashed 2px rgb(39, 145, 39);
+    }
+
+    .images-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .images-container-1{
+        width: 100%;
+        height: auto;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .images-container-2{
+        flex-flow: column wrap;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+
+    .showmore{
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+
+    .showmoreg{
+       justify-self: flex-end;
+       margin-left: 180px;
+    }
+
+    .showmoreb{
+        align-self: center;
+        justify-content: center;
+        margin-left: 180px;
+    }
+
+    .ly-txt{
+        text-align: center;
+        flex-flow: row-reverse wrap;
+    }
+
+    .ly-txt2{
+       height: auto;
+       align-items: center;
+       margin-bottom: 20px;
+    }
+
+    .layeredTitle{
+        text-align: center;
+        justify-content: center;
+        width: 500px;
+    }
+
+    .ly-img{
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
+    .fourth{
+        height: 1000px;
+        justify-self: center;
+    }
+
+   .layered{
+       height: auto;
+       width: 100%;
+   }
+
+   .layered-1{
+       height: auto;
+       flex-flow: column wrap;
+       border-bottom: none;     
+   }
+
+   .layered-2{
+       border-top: solid 3px lightgray;
+       height: auto;
+       flex-flow: column-reverse wrap;
+       justify-content: center;
+       align-items: center;
+   }
+}
