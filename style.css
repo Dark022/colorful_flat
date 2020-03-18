@@ -800,14 +800,14 @@ label{
 
     .showmoreg{
        justify-self: flex-end;
-       margin-left: 180px;
+       margin-left: 130px;
        cursor: pointer;
     }
 
     .showmoreb{
         align-self: center;
         justify-content: center;
-        margin-left: 180px;
+        margin-left: 130px;
         cursor: pointer;
     }
 
@@ -816,6 +816,7 @@ label{
         flex-flow: row-reverse wrap;
         justify-self: center;
         align-content: center;
+        width: 100%;
     }
 
     .ly-txt2{
@@ -833,6 +834,7 @@ label{
     .ly-img{
         align-self: center;
         margin-bottom: 20px;
+
     }
 
     .fourth{
@@ -852,6 +854,7 @@ label{
        flex-flow: column wrap;
        border-bottom: none;     
        align-items: center;
+       width: 100%;
    }
 
    .layered-2{
@@ -860,6 +863,7 @@ label{
        flex-flow: column-reverse wrap;
        justify-content: center;
        align-items: center;
+       width: 100%;
    }
 
    .mot{
