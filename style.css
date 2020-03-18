@@ -670,7 +670,7 @@ label{
 @media screen and (max-width: 900px) {
 
     .topbar{
-        height: 250px;
+        height: 290px;
         width: 100%;
         flex-flow: column wrap;
         justify-content: flex-start;
@@ -714,6 +714,7 @@ label{
 
     .first{
         height: auto;
+        flex-flow: column wrap;
     }
 
     .second{
@@ -733,7 +734,7 @@ label{
     }
 
     .tta{
-        height: 100%;
+        height: auto;
         width: 100%;
     }
 
